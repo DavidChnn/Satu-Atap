@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/landingPageLogged', function () {
     return view('landingPageLogged');
 });
+
+Route::get('/Login', function () {
+    return view('login');
+});
+
+Route::get('/Register', function () {
+    return view('register');
+});

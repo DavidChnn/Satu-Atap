@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         @vite('resources/css/app.css')
+        <title>Satu Atap</title>
     </head>
     <body class="">
         <nav class="flex bg-white shadow-xl h-fit justify-between items-center px-20">
