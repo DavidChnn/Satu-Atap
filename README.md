@@ -1,32 +1,22 @@
-```markdown
 # SatuAtap Website Project
 
 ## Deskripsi
-
 SatuAtap adalah website inovatif yang bertujuan untuk memudahkan dan mempercepat proses pengecekan dokumen di Mall Pelayanan Publik Kota Surabaya. Website ini didesain untuk meningkatkan efisiensi, transparansi, dan pengalaman warga Surabaya dalam berinteraksi dengan Mall Pelayanan Publik.
 
 ## Fitur
-
 ### 1. Pengecekan Dokumen Otomatis
-
-- Pengguna dapat mengunggah dokumen-dokumen yang diperlukan untuk layanan tertentu, seperti perpanjangan SIM atau pengurusan KTP.
-- Sistem secara otomatis memeriksa kelengkapan dokumen dan memberikan umpan balik dalam waktu nyata.
-- Jika ada dokumen yang kurang atau tidak valid, pengguna akan segera diberi tahu dan diberikan petunjuk tentang langkah selanjutnya.
+- Unggah dokumen untuk layanan (SIM, KTP).
+- Sistem otomatis periksa kelengkapan dengan umpan balik.
 
 ### 2. Jadwal dan Antrian Online
-
-- Website menyediakan jadwal layanan yang tersedia di Mall Pelayanan Publik.
-- Pengguna dapat melihat jadwal dan memesan antrian online sesuai dengan jenis layanan yang mereka butuhkan.
-- Notifikasi diberikan saat giliran mereka mendekat, membantu mereka tiba tepat waktu untuk pelayanan.
+- Lihat jadwal layanan dan pesan antrian online.
+- Notifikasi saat giliran mendekat.
 
 ### 3. Notifikasi Real-time
-
-- Notifikasi real-time lewat email memberitahu pengguna tentang perubahan jadwal layanan, informasi penting, atau peringatan tentang kemungkinan gangguan atau penundaan dalam layanan.
+- Notifikasi perubahan jadwal via email.
 
 ### 4. Informasi Terkini
-
-- Website menyediakan berita dan pembaruan terkini tentang layanan publik, peraturan terbaru, dan prosedur di Mall Pelayanan Publik.
-- Pengguna dapat dengan mudah mengakses informasi terbaru yang relevan dengan kebutuhan mereka.
+- Berita dan pembaruan layanan publik.
 
 ## Cara Clone dan Menjalankan Proyek
 
@@ -39,7 +29,7 @@ SatuAtap adalah website inovatif yang bertujuan untuk memudahkan dan mempercepat
 2. Pindah ke direktori proyek:
 
    ```bash
-   cd SatuAtap
+   cd Satu-Atap
    ```
 
 3. Install dependencies menggunakan Composer:
@@ -61,6 +51,7 @@ SatuAtap adalah website inovatif yang bertujuan untuk memudahkan dan mempercepat
    ```
 
 6. Migrasi dan seeding database:
+    - jalankan xampp
 
    ```bash
    php artisan migrate --seed
@@ -74,8 +65,23 @@ SatuAtap adalah website inovatif yang bertujuan untuk memudahkan dan mempercepat
 
    Kunjungi `http://localhost:8000` pada browser untuk melihat proyek.
 
-## Kontribusi
+Menambahkan Tailwind CSS ke proyek Laravel, ikuti langkah-langkah berikut:
 
+**Langkah 1: Instal Tailwind CSS dan PostCSS Dependencies**
+
+Buka terminal dan jalankan perintah berikut:
+
+```bash
+npm install tailwindcss postcss autoprefixer
+```
+
+**Langkah 2: Jalankan perintah berikut untuk mengkompilasi Tailwind CSS:**
+
+```bash
+npm run dev
+```
+
+## Kontribusi
 Jika Anda ingin berkontribusi pada proyek ini, silakan ikuti langkah-langkah berikut:
 
 1. Fork repositori ini.
