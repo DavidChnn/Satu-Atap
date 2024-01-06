@@ -18,7 +18,7 @@
                     <a href="Login">
                         <p class="ml-4 pr-4 text-neutral-400">Login</p>
                     </a>
-                    <a href="Register">
+                    <a href="History">
                         <p class="ml-4 pr-4 border-b-2 border-black">Register</p>
                     </a>
                 </div>

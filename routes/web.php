@@ -29,6 +29,9 @@ Route::get('/Register', function () {
     return view('register');
 });
 
+Route::get('/History', function () {
+    return view('history');
+});
 Route::get('/inputForm', function () {
     return view('inputFormPage');
 })->name('inputForm');
