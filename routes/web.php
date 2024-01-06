@@ -32,3 +32,10 @@ Route::get('/Register', function () {
 Route::get('/History', function () {
     return view('history');
 });
+Route::get('/inputForm', function () {
+    return view('inputFormPage');
+})->name('inputForm');
+
+Route::get('/inputFormAfter', function () {
+    return view('inputFormPageAfter');
+})->name('inputFormAfter');
