@@ -39,3 +39,7 @@ Route::get('/inputForm', function () {
 Route::get('/inputFormAfter', function () {
     return view('inputFormPageAfter');
 })->name('inputFormAfter');
+
+Route::get('/JenisLayanan', function () {
+    return view('jenisLayanan');
+});
