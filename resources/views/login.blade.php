@@ -23,7 +23,7 @@
                     </a>
                 </div>
                 <div class="px-12 py-4">
-                    <form action="">
+                    <form action="landingPageLogged">
                         <div>
                             <label for="email">Email</label><br>
                             <input type="email" class="bg-zinc-200 rounded-lg w-full"><br>
