@@ -28,3 +28,7 @@ Route::get('/Login', function () {
 Route::get('/Register', function () {
     return view('register');
 });
+
+Route::get('/JenisLayanan', function () {
+    return view('JenisLayanan');
+});
