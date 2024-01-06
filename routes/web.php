@@ -28,3 +28,11 @@ Route::get('/Login', function () {
 Route::get('/Register', function () {
     return view('register');
 });
+
+Route::get('/inputForm', function () {
+    return view('inputFormPage');
+})->name('inputForm');
+
+Route::get('/inputFormAfter', function () {
+    return view('inputFormPageAfter');
+})->name('inputFormAfter');
