@@ -41,7 +41,7 @@
                 <a href="Login">
                     <button type="button" class="mx-2 px-4 font-bold text-sky-600 border-2 border-sky-600 rounded-lg">Masuk</button>
                 </a>
-                <a href="Register">
+                <a href="History">
                     <button type="button" class="mx-2 px-4 font-bold bg-sky-600 border-2 border-sky-600 rounded-lg text-white">Daftar</button>
                 </a>
             </div>
@@ -52,7 +52,7 @@
                     <a href="Login">
                         <p class="ml-4 pr-4 text-neutral-400">Login</p>
                     </a>
-                    <a href="Register">
+                    <a href="History">
                         <p class="ml-4 pr-4 border-b-2 border-black">Register</p>
                     </a>
                 </div>
