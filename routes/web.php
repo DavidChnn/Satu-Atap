@@ -21,6 +21,10 @@ Route::get('/landingPageLogged', function () {
     return view('landingPageLogged');
 });
 
+Route::get('/Account', function () {
+    return view('Account');
+});
+
 Route::get('/Login', function () {
     return view('login');
 });
