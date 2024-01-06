@@ -30,7 +30,7 @@ Route::get('/Register', function () {
 });
 
 Route::get('/JenisLayanan', function () {
-    return view('JenisLayanan');
+    return view('jenisLayanan');
 });
 Route::get('/History', function () {
     return view('history');
@@ -42,3 +42,7 @@ Route::get('/inputForm', function () {
 Route::get('/inputFormAfter', function () {
     return view('inputFormPageAfter');
 })->name('inputFormAfter');
+
+Route::get('/afterSubmit', function () {
+    return view('afterSubmitPage');
+})->name('afterSubmit');

@@ -49,16 +49,16 @@
                     <a href="Login">
                         <p class="pr-4 text-black">Account</p>
                      </a>
-                    <a href="Register">
+                    <a href="History">
                         <p class="ml-4 pr-4 border-b-2 border-blue-500 text-blue-500">History</p>
                     </a>
                 </div>
         </div>
         <div class="flex flex-col bg-white h-fit justify-between px-20 ">
                 <div class="flex p-8 mr-auto">
-                <button class="bg-white text-black py-2 px-4 rounded-full mr-2 mb-2 w-24 border border-black">All</button>
-                <button class="bg-white text-black py-2 px-4 rounded-full mr-2 mb-2 w-24 border border-gray-300">Complete</button>
-                <button class="bg-white text-black py-2 px-4 rounded-full mr-2 mb-2 w-24 border border-gray-300">Pending</button>
+                    <button class="bg-white text-black py-2 px-4 rounded-full mr-2 mb-2 w-28 border border-black">All</button>
+                    <button class="bg-white text-black py-2 px-4 rounded-full mr-2 mb-2 w-28 border border-gray-300">Complete</button>
+                    <button class="bg-white text-black py-2 px-4 rounded-full mr-2 mb-2 w-28 border border-gray-300">Pending</button>
                 </div>
         </div>
         <div class="bg-white">

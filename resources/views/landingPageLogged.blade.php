@@ -27,12 +27,14 @@
         </div>
         <div class="bg-zinc-100">
             <div class="grid grid-cols-4 mx-40">
-                <div class="bg-white w-fit mx-auto my-20 p-2 rounded-lg shadow-lg w-52">
-                    <div class="h-52 flex justify-center items-center">
-                        <img src="{{ url('images/dukcapil.png') }}" alt="Deskripsi Gambar" class="mx-auto">
+                <a href="JenisLayanan">
+                    <div class="bg-white w-fit mx-auto my-20 p-2 rounded-lg shadow-lg w-52">
+                        <div class="h-52 flex justify-center items-center">
+                            <img src="{{ url('images/dukcapil.png') }}" alt="Deskripsi Gambar" class="mx-auto">
+                        </div>
+                        <p class="text-center">DUKCAPIL</p>
                     </div>
-                    <p class="text-center">DUKCAPIL</p>
-                </div>
+                </a>
                 <div class="bg-white w-fit mx-auto my-20 p-2 rounded-lg shadow-lg w-52">
                     <div class="h-52 flex justify-center items-center">
                         <img src="{{ url('images/samsat.png') }}" alt="Deskripsi Gambar" class="mx-auto">
