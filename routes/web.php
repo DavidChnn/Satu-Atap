@@ -21,6 +21,10 @@ Route::get('/landingPageLogged', function () {
     return view('landingPageLogged');
 });
 
+Route::get('/Account', function () {
+    return view('Account');
+});
+
 Route::get('/Login', function () {
     return view('login');
 });
@@ -43,6 +47,6 @@ Route::get('/inputFormAfter', function () {
     return view('inputFormPageAfter');
 })->name('inputFormAfter');
 
-Route::get('/afterSubmit', function () {
-    return view('afterSubmitPage');
-})->name('afterSubmit');
+Route::get('/JenisLayanan', function () {
+    return view('jenisLayanan');
+});
