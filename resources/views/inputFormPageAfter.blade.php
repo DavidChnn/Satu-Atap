@@ -32,7 +32,7 @@
                 @include('component/form/successForm')
             </div>
 
-            <a href="afterSubmit">
+            <a href="afterSubmitPage">
                 <div class="container py-6 px-10 mx-0 min-w-full flex flex-col items-center">
                     <button class="text-lg bg-[#0077C0] text-white hover:bg-gradient-to-r hover:from-[#0077C0] hover:to-[#373390] font-bold py-4 px-36 mt-3 rounded-2xl">Submit</button>
                 </div>
