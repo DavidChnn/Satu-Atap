@@ -12,7 +12,6 @@
         {{-- Navbar end --}}
 
         {{-- Content --}}
-        
         <div class="flex flex-col bg-gray-300 h-fit justify-between px-20 ">
                 <div class="flex items-center p-4 font-bold text-3xl">
                     <p class="pr-4">Profile</p>

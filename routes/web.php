@@ -39,6 +39,7 @@ Route::get('/JenisLayanan', function () {
 Route::get('/History', function () {
     return view('history');
 });
+
 Route::get('/inputForm', function () {
     return view('inputFormPage');
 })->name('inputForm');
@@ -50,6 +51,6 @@ Route::get('/inputFormAfter', function () {
 Route::get('/JenisLayanan', function () {
     return view('jenisLayanan');
 });
-Route::get('/afterSubmitPage', function () {
+Route::get('/afterSubmit', function () {
     return view('afterSubmitPage');
-})->name('afterSubmitPage');
+})->name('afterSubmit');

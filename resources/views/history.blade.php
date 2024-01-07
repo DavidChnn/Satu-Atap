@@ -32,13 +32,13 @@
                 </div>
         </div>
 
-        <div class="bg-white flex-grow">
-            <div class="relative flex justify-center items-center">
-                <div class="relative bg-gray-300 rounded-xl w-full max-w-screen-md p-6">
+        <div class="bg-white flex-grow px-20">
+            <div class="relative flex items-center px-4">
+                <div class="relative rounded-xl shadow-xl w-full max-w-screen-lg border-2 border-gray-200 h-fit text-center">
                     <form action="">
                         <div>
                         <table class="table-fixed w-full">
-                            <thead>
+                            <thead class="relative border-b-2 border-gray-300">
                                 <tr>
                                 <th class="px-4 py-2">Order ID</th>
                                 <th class="px-4 py-2">Date</th>
@@ -48,54 +48,40 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                <td>#15267</td>
-                                <td>Mar 1, 2023</td>
-                                <td>Dukacapil</td>
-                                <td>E-Ktp</td>
-                                <td>Success</td>
+                                <tr class="hover:bg-gray-200">
+                                    <td class="py-4">#15267</td>
+                                    <td>Mar 1, 2023</td>
+                                    <td>Dukacapil</td>
+                                    <td>E-Ktp</td>
+                                    <td class="text-green-500">Success</td>
                                 </tr>
-                                <tr>
-                                <td>#15267</td>
-                                <td>Mar 1, 2023</td>
-                                <td>Dukacapil</td>
-                                <td>E-Ktp</td>
-                                <td>Success</td>
+                                <tr class="hover:bg-gray-200">
+                                    <td class="py-4">#15267</td>
+                                    <td>Mar 1, 2023</td>
+                                    <td>Dukacapil</td>
+                                    <td>E-Ktp</td>
+                                    <td class="text-green-500">Success</td>
                                 </tr>
-                                <tr>
-                                <td>#15267</td>
-                                <td>Mar 1, 2023</td>
-                                <td>Dukacapil</td>
-                                <td>E-Ktp</td>
-                                <td>Success</td>
+                                <tr class="hover:bg-gray-200">
+                                    <td class="py-4">#15267</td>
+                                    <td>Mar 1, 2023</td>
+                                    <td>Dukacapil</td>
+                                    <td>E-Ktp</td>
+                                    <td class="text-green-500">Success</td>
                                 </tr>
-                                <tr>
-                                <td>#15267</td>
-                                <td>Mar 1, 2023</td>
-                                <td>Dukacapil</td>
-                                <td>E-Ktp</td>
-                                <td>Success</td>
+                                <tr class="hover:bg-gray-200">
+                                    <td class="py-4">#15267</td>
+                                    <td>Mar 1, 2023</td>
+                                    <td>Dukacapil</td>
+                                    <td>E-Ktp</td>
+                                    <td class="text-sky-600">Pending</td>
                                 </tr>
-                                <tr>
-                                <td>#15267</td>
-                                <td>Mar 1, 2023</td>
-                                <td>Dukacapil</td>
-                                <td>E-Ktp</td>
-                                <td>Success</td>
-                                </tr>
-                                <tr>
-                                <td>#15267</td>
-                                <td>Mar 1, 2023</td>
-                                <td>Dukacapil</td>
-                                <td>E-Ktp</td>
-                                <td>Success</td>
-                                </tr>
-                                <tr>
-                                <td>#15267</td>
-                                <td>Mar 1, 2023</td>
-                                <td>Dukacapil</td>
-                                <td>E-Ktp</td>
-                                <td>Success</td>
+                                <tr class="hover:bg-gray-200">
+                                    <td class="py-4">#15267</td>
+                                    <td>Mar 1, 2023</td>
+                                    <td>Dukacapil</td>
+                                    <td>E-Ktp</td>
+                                    <td class="text-red-600">Cancel</td>
                                 </tr>
                             </tbody>
                         </table>

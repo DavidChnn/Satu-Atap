@@ -29,7 +29,9 @@
                 <input type="search" placeholder="Cari..." class="outline-none">
         </div>
     </div>
-    <div class="relative flex items-center p-4">
-        <p>Helo, User</p>
-    </div>
+    <a href="Account">
+        <div class="relative flex items-center p-4">
+            <p>Helo, User</p>
+        </div>
+    </a>
 </nav>

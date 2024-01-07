@@ -13,7 +13,7 @@
 
         {{-- Content --}}
         <div class="bg-zinc-100 py-20 px-10">
-            <h1 class="text-center text-3xl font-bold py-4">
+            <h1 class="text-center text-3xl font-bold py-10">
                 DUKCAPIL
             </h1>
             <div class="px-4 relative grid grid-cols-2 gap-10">
@@ -59,7 +59,7 @@
                     </p>
                 </div>
             </div>
-            <div class="text-center pt-60">
+            <div class="text-center pt-48">
                 <a href="landingPageLogged" class="text-zinc-800 text-lg font-normal font-['Inter'] underline">
                     Back to Home
                 </a>

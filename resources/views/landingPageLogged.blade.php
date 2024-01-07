@@ -12,7 +12,7 @@
         {{-- Navbar end --}}
 
         {{-- Content --}}
-        <div class="grid grid-cols-2 justify-center items-center py-20 bg-gradient-to-r from-sky-600 to-white">
+        <div class="grid grid-cols-2 justify-center items-center py-20 bg-gradient-to-r from-[#0077C0] to-[#fff]">
             <div class="self-center">
                 <img src="{{ url('images/landingpageimg.png') }}" alt="Deskripsi Gambar" class="mx-auto">
             </div>
