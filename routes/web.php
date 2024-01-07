@@ -50,3 +50,6 @@ Route::get('/inputFormAfter', function () {
 Route::get('/JenisLayanan', function () {
     return view('jenisLayanan');
 });
+Route::get('/afterSubmitPage', function () {
+    return view('afterSubmitPage');
+})->name('afterSubmitPage');

@@ -8,7 +8,7 @@
     </head>
     <body class="flex flex-col min-h-screen">
         {{-- Navbar --}}
-        @include('component/navbarGuest')
+        @include('component/navbarlogged')
         {{-- Navbar end --}}
 
         <div class="flex flex-col bg-gray-300 h-fit justify-between px-20 ">
@@ -53,49 +53,49 @@
                                 <td>Mar 1, 2023</td>
                                 <td>Dukacapil</td>
                                 <td>E-Ktp</td>
-                                <td>Status</td>
+                                <td>Success</td>
                                 </tr>
                                 <tr>
                                 <td>#15267</td>
                                 <td>Mar 1, 2023</td>
                                 <td>Dukacapil</td>
                                 <td>E-Ktp</td>
-                                <td>Status</td>
+                                <td>Success</td>
                                 </tr>
                                 <tr>
                                 <td>#15267</td>
                                 <td>Mar 1, 2023</td>
                                 <td>Dukacapil</td>
                                 <td>E-Ktp</td>
-                                <td>Status</td>
+                                <td>Success</td>
                                 </tr>
                                 <tr>
                                 <td>#15267</td>
                                 <td>Mar 1, 2023</td>
                                 <td>Dukacapil</td>
                                 <td>E-Ktp</td>
-                                <td>Status</td>
+                                <td>Success</td>
                                 </tr>
                                 <tr>
                                 <td>#15267</td>
                                 <td>Mar 1, 2023</td>
                                 <td>Dukacapil</td>
                                 <td>E-Ktp</td>
-                                <td>Status</td>
+                                <td>Success</td>
                                 </tr>
                                 <tr>
                                 <td>#15267</td>
                                 <td>Mar 1, 2023</td>
                                 <td>Dukacapil</td>
                                 <td>E-Ktp</td>
-                                <td>Status</td>
+                                <td>Success</td>
                                 </tr>
                                 <tr>
                                 <td>#15267</td>
                                 <td>Mar 1, 2023</td>
                                 <td>Dukacapil</td>
                                 <td>E-Ktp</td>
-                                <td>Status</td>
+                                <td>Success</td>
                                 </tr>
                             </tbody>
                         </table>
