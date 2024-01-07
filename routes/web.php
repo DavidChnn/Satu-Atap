@@ -39,9 +39,14 @@ Route::get('/JenisLayanan', function () {
 Route::get('/History', function () {
     return view('history');
 });
+
 Route::get('/inputForm', function () {
     return view('inputFormPage');
 })->name('inputForm');
+
+Route::get('/AfterSubmit', function () {
+    return view('afterSubmitPage');
+})->name('AfterSubmit');
 
 Route::get('/inputFormAfter', function () {
     return view('inputFormPageAfter');
