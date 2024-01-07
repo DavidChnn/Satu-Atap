@@ -8,7 +8,7 @@
     </head>
     <body class="flex flex-col min-h-screen">
         {{-- Navbar --}}
-        @include('component/navbarGuest')
+        @include('component/navbarLogged')
         {{-- Navbar end --}}
 
         {{-- Content --}}
