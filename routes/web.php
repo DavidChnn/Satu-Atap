@@ -44,10 +44,6 @@ Route::get('/inputForm', function () {
     return view('inputFormPage');
 })->name('inputForm');
 
-Route::get('/AfterSubmit', function () {
-    return view('afterSubmitPage');
-})->name('AfterSubmit');
-
 Route::get('/inputFormAfter', function () {
     return view('inputFormPageAfter');
 })->name('inputFormAfter');
@@ -55,6 +51,6 @@ Route::get('/inputFormAfter', function () {
 Route::get('/JenisLayanan', function () {
     return view('jenisLayanan');
 });
-Route::get('/afterSubmitPage', function () {
+Route::get('/afterSubmit', function () {
     return view('afterSubmitPage');
-})->name('afterSubmitPage');
+})->name('afterSubmit');
